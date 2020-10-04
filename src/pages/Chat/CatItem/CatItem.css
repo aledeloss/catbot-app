@@ -24,4 +24,8 @@
     width: fit-content;
     font-weight: normal;
     box-sizing: border-box;
+    float: left;
+        /* display: flex;
+        justify-content: flex-start;
+        align-items: flex-start; */
 }

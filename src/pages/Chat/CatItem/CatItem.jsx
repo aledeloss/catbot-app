@@ -8,7 +8,7 @@ const CatItem = ({ text }) => {
         <div className='cat-item-container'>
             <img src={CatAvatar} alt="cat-avatar"/>
             <div className='cat-item-messages'> 
-            { text.map((t, index) =>               
+            { text.map((t, index) =>
                 <label key={index}> {t} </label>
             )}
             </div>
